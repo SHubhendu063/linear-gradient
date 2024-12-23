@@ -8,6 +8,7 @@ html,body{
     height: 100%;
     width: 100%;
     font-size: 62.5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
 .btn{
@@ -27,16 +28,19 @@ html,body{
     cursor: pointer;
 
 }
+#btn1{
+    background-color: #fab1f6;
+}
+#btn2{
+    background-color:#00b3ff;
+}
 .maincontainer{
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-image: linear-gradient(to right top #63e65f, #00b3ff); */
-}
-#maimcontainer1{
-    background-color: linear-gradient(to right top #63e65f, #00b3ff);
+    background-image: linear-gradient(to right top,#fab1f6, #00b3ff);
 }
 
 .container{
@@ -55,32 +59,42 @@ html,body{
     -ms-border-radius: 1.3rem;
     -o-border-radius: 1.3rem;
 }
-/* .gredient_box{
+.gredient_box{
     grid-column-start: 1;
     grid-column-end: 4;
     position: relative;
-    padding: 0.5rem;
+    padding: 0.7rem;
     border-left: 0.2rem solid white;
+    background-color: #ffffff1e;
     height: 9rem;
-    width: 80%;
+    width: 100%;
     border-radius: 1.5rem;
     -webkit-border-radius: 1.5rem;
     -moz-border-radius: 1.5rem;
     -ms-border-radius: 1.5rem;
     -o-border-radius: 1.5rem;
 }
-.fa-regular{
-    position: absolute;
-    right: 0.6rem;
-    font-size: 1.5rem;
-    color:white;
-    
-}
 .gredient_box p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: absolute;
-    top: 2.5rem;
-    color:white;
+    top: 2.2rem;
+    color:rgb(0, 0, 0);
     font-size: 1.7rem;
     margin: 0.2rem;
+    letter-spacing: 0.1rem;
    
-} */
+}
+
+
+
+
+@media (max-width:1276px){
+
+    .gredient_box p{
+        text-align: center;
+        top: 2.2rem;
+        font-size: 1.4rem;
+    }
+    
+
+}
